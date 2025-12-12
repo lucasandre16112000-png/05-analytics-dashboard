@@ -30,7 +30,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/tmp/projects/05-analytics-dashboard/venv"
+set -gx VIRTUAL_ENV "/home/ubuntu/portfolio_analysis/05-analytics-dashboard/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
