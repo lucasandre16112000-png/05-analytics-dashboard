@@ -1,65 +1,106 @@
-# 📊 App 5: Dashboard de Análise de Dados com Plotly
+# 📊 Analytics Dashboard Profissional
 
-Este projeto demonstra a criação de um **dashboard de análise de dados interativo e visualmente atraente**, utilizando **Python** para o processamento dos dados e **Plotly** para a geração dos gráficos. O resultado final é um arquivo HTML autocontido que pode ser aberto em qualquer navegador.
+Este projeto é um dashboard de analytics completo e profissional, construído com Python, Pandas, Plotly e Jinja2. Ele gera um relatório HTML interativo com diversas métricas e gráficos para análise de dados de tráfego de um site.
 
-## ✨ Funcionalidades Principais
+## ✨ Features
 
-- **Geração de Dados Sintéticos**: Cria um conjunto de dados de análise realístico.
-- **Motor de Análise com Pandas**: Utiliza a biblioteca `Pandas` para calcular uma variedade de métricas essenciais.
-- **Dashboard Interativo com Plotly**: Gera um arquivo `dashboard.html` com múltiplos gráficos interativos.
-- **Exportação de Relatórios**: Exporta um relatório completo em formato JSON (`analytics_report.json`).
+- **Dashboard Interativo:** Visualizações de dados ricas e interativas com Plotly.js.
+- **Métricas Abrangentes:** Cálculo de mais de 10 métricas essenciais, como Page Views, Visitantes Únicos, Taxa de Conversão, Receita, etc.
+- **Análise Temporal:** Gráficos de séries temporais para análise de tráfego por dia e por hora.
+- **Análise de Segmentos:** Gráficos de pizza para análise de distribuição de tráfego por dispositivo e por fonte.
+- **Análise de Tendências:** Cálculo de tendências de crescimento ou queda para as principais métricas.
+- **Arquitetura Profissional:** Código modular e bem organizado, seguindo as melhores práticas de engenharia de software.
+- **Templates HTML:** Uso de Jinja2 para separação do código Python da apresentação HTML.
+- **Testes Abrangentes:** Testes unitários com Pytest para garantir a qualidade e a corretude dos cálculos.
+- **Configuração Flexível:** Configurações centralizadas para fácil customização.
+- **Exportação de Relatórios:** Geração de um relatório completo em JSON com todos os dados e métricas.
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Como Usar
 
-| Tecnologia | Versão | Propósito |
-| :--- | :--- | :--- |
-| **Python** | 3.11+ | Linguagem principal |
-| **Pandas** | 2.1.3 | Manipulação e análise de dados |
-| **Plotly** | 5.18.0 | Criação de gráficos interativos |
+### 1. Pré-requisitos
 
-## 📋 Guia de Instalação e Execução (Para Qualquer Pessoa)
+- Python 3.8+
+- `venv` (ou outra ferramenta de ambiente virtual)
 
-### Pré-requisitos
+### 2. Instalação
 
-1.  **Git**: [**Download aqui**](https://git-scm.com/downloads)
-2.  **Python**: [**Download aqui**](https://www.python.org/downloads/) (versão 3.8+)
-
-### Passo 1: Baixar o Projeto
+Clone o repositório e instale as dependências:
 
 ```bash
 git clone https://github.com/lucasandre16112000-png/05-analytics-dashboard.git
 cd 05-analytics-dashboard
-```
 
-### Passo 2: Criar e Ativar um Ambiente Virtual
-
-```bash
-# No Windows
-python -m venv venv
-.\venv\Scripts\activate
-
-# No macOS ou Linux
 python3 -m venv venv
 source venv/bin/activate
-```
 
-### Passo 3: Instalar as Bibliotecas
-
-```bash
 pip install -r requirements.txt
 ```
 
-### Passo 4: Executar o Script
+### 3. Execução
+
+Para gerar o dashboard, execute o script principal:
 
 ```bash
-python dashboard.py
+python3 -m dashboard.main
 ```
 
-### Passo 5: Abrir o Dashboard
+O script irá:
 
-- Um arquivo chamado `dashboard.html` será criado na pasta.
-- Abra este arquivo no seu navegador para ver o dashboard interativo.
+1.  Gerar dados de exemplo (se não existirem).
+2.  Calcular todas as métricas e análises.
+3.  Gerar o relatório em JSON em `output/analytics_report.json`.
+4.  Gerar o dashboard HTML em `output/dashboard.html`.
 
-## 👨‍💻 Autor
+### 4. Visualização
 
-Lucas André S - [GitHub](https://github.com/lucasandre16112000-png)
+Abra o arquivo `output/dashboard.html` em seu navegador para visualizar o dashboard interativo.
+
+## 🧪 Testes
+
+Para rodar os testes, execute o Pytest:
+
+```bash
+pytest
+```
+
+## 🏗️ Estrutura do Projeto
+
+```
+/05-analytics-dashboard
+├── dashboard/
+│   ├── config/             # Módulo de configuração
+│   │   ├── __init__.py
+│   │   ├── logger.py         # Configuração do logger
+│   │   └── settings.py       # Configurações gerais
+│   ├── data_engine/        # Módulo de análise de dados
+│   │   ├── __init__.py
+│   │   └── analytics.py      # Classe AnalyticsEngine
+│   ├── static/               # Arquivos estáticos (CSS, JS)
+│   │   └── css/
+│   │       └── style.css
+│   ├── templates/            # Templates HTML (Jinja2)
+│   │   └── index.html
+│   ├── __init__.py
+│   ├── generator.py        # Classe DashboardGenerator
+│   └── main.py             # Script principal
+├── data/                   # Dados de entrada
+│   └── sample_data.json
+├── output/                 # Arquivos de saída
+│   ├── analytics_report.json
+│   └── dashboard.html
+├── tests/                  # Testes unitários
+│   ├── __init__.py
+│   ├── test_analytics.py
+│   └── test_generator.py
+├── .gitignore
+├── README.md
+└── requirements.txt
+```
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics Dashboard Profissional</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Analytics Dashboard Profissional</h1>
+            <p>Gerado em 12/12/2025 18:59:54</p>
+        </div>
+        
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <h3>Page Views</h3>
+                <div class="value">573335</div>
+                <div class="unit">Total</div>
+            </div>
+            
+            <div class="metric-card">
+                <h3>Visitantes Únicos</h3>
+                <div class="value">400924</div>
+                <div class="unit">Total</div>
+            </div>
+            
+            <div class="metric-card">
+                <h3>Taxa de Conversão</h3>
+                <div class="value">2.79%</div>
+                <div class="unit">Média</div>
+            </div>
+            
+            <div class="metric-card">
+                <h3>Receita</h3>
+                <div class="value">R$ 396279.11</div>
+                <div class="unit">Total</div>
+            </div>
+            
+            <div class="metric-card">
+                <h3>Taxa de Rejeição</h3>
+                <div class="value">48.55%</div>
+                <div class="unit">Média</div>
+            </div>
+            
+            <div class="metric-card">
+                <h3>Duração da Sessão</h3>
+                <div class="value">5.99</div>
+                <div class="unit">Minutos</div>
+            </div>
+        </div>
+        
+        <div class="charts-grid">
+            <div class="chart-container">
+                <h3>Page Views por Hora</h3>
+                <div id="hourly-chart" class="chart"></div>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Page Views por Dia</h3>
+                <div id="daily-chart" class="chart"></div>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Distribuição por Dispositivo</h3>
+                <div id="device-chart" class- "chart"></div>
+            </div>
+            
+            <div class="chart-container">
+                <h3>Distribuição por Fonte</h3>
+                <div id="source-chart" class="chart"></div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Dashboard gerado automaticamente • Desenvolvido com ❤️ pela Manus AI</p>
+        </div>
+    </div>
+    
+    <script>
+        // Gráfico de Page Views por Hora
+        var hourlyData = {"page_views":{"0":23966,"1":17818,"2":11821,"3":6834,"4":3442,"5":1182,"6":-467,"7":961,"8":2887,"9":7441,"10":12322,"11":17515,"12":23678,"13":29792,"14":35741,"15":40556,"16":45031,"17":47053,"18":47370,"19":47124,"20":44869,"21":40539,"22":35778,"23":30082},"unique_visitors":{"0":16811,"1":12235,"2":8410,"3":4809,"4":2268,"5":408,"6":45,"7":323,"8":2206,"9":4862,"10":8433,"11":12582,"12":16764,"13":21045,"14":24935,"15":28874,"16":31081,"17":32703,"18":33218,"19":32826,"20":31064,"21":28806,"22":25000,"23":21216},"bounce_rate":{"0":50.58,"1":48.27,"2":47.41,"3":49.75,"4":48.49,"5":48.49,"6":45.01,"7":47.24,"8":46.37,"9":49.89,"10":50.29,"11":47.94,"12":50.09,"13":46.34,"14":45.17,"15":49.14,"16":54.52,"17":52.51,"18":48.85,"19":48.96,"20":42.02,"21":49.22,"22":46.24,"23":52.38},"conversion_rate":{"0":2.77,"1":2.94,"2":2.85,"3":3.0,"4":2.74,"5":3.08,"6":2.64,"7":2.6,"8":3.08,"9":2.53,"10":2.59,"11":2.7,"12":2.64,"13":3.29,"14":3.25,"15":2.5,"16":2.52,"17":3.03,"18":3.05,"19":2.96,"20":2.59,"21":2.44,"22":2.63,"23":2.65},"revenue":{"0":16808.96,"1":16694.22,"2":17836.05,"3":15590.87,"4":17412.13,"5":18141.22,"6":20020.6,"7":14788.12,"8":17191.78,"9":16167.39,"10":16533.61,"11":15524.65,"12":16768.38,"13":17881.71,"14":18542.24,"15":18265.07,"16":16776.81,"17":15281.22,"18":15245.35,"19":16467.91,"20":13402.01,"21":14681.38,"22":13500.68,"23":16756.77}};
+        var hourlyTrace = {
+            x: Object.keys(hourlyData.page_views),
+            y: Object.values(hourlyData.page_views),
+            type: 'scatter',
+            mode: 'lines+markers',
+            fill: 'tozeroy',
+            name: 'Page Views',
+            line: {color: '#667eea'}
+        };
+        Plotly.newPlot('hourly-chart', [hourlyTrace], {
+            title: '',
+            xaxis: {title: 'Hora do Dia'},
+            yaxis: {title: 'Page Views'},
+            margin: {t: 20}
+        });
+        
+        // Gráfico de Page Views por Dia
+        var dailyData = {"page_views":{"1970-01-01":573335},"unique_visitors":{"1970-01-01":400924},"bounce_rate":{"1970-01-01":48.55},"avg_session_duration":{"1970-01-01":5.99},"conversion_rate":{"1970-01-01":2.79},"revenue":{"1970-01-01":396279.11}};
+        var dailyTrace = {
+            x: Object.keys(dailyData.page_views),
+            y: Object.values(dailyData.page_views),
+            type: 'bar',
+            name: 'Page Views',
+            marker: {color: '#764ba2'}
+        };
+        Plotly.newPlot('daily-chart', [dailyTrace], {
+            title: '',
+            xaxis: {title: 'Data'},
+            yaxis: {title: 'Page Views'},
+            margin: {t: 20}
+        });
+        
+        // Gráfico de Dispositivos
+        var deviceData = {"Desktop": {"bounce_rate": 49.11, "conversion_rate": 2.78, "page_views": 345662, "revenue": 236843.88, "unique_visitors": 242012}, "Mobile": {"bounce_rate": 47.67, "conversion_rate": 2.94, "page_views": 178566, "revenue": 120403.01, "unique_visitors": 124618}, "Tablet": {"bounce_rate": 47.94, "conversion_rate": 2.43, "page_views": 49107, "revenue": 39032.22, "unique_visitors": 34294}};
+        var deviceTrace = {
+            labels: Object.keys(deviceData),
+            values: Object.values(deviceData).map(d => d.page_views),
+            type: 'pie',
+            marker: {colors: ['#667eea', '#764ba2', '#f093fb']}
+        };
+        Plotly.newPlot('device-chart', [deviceTrace], {
+            title: '',
+            margin: {t: 20}
+        });
+        
+        // Gráfico de Fontes
+        var sourceData = {"Direct": {"bounce_rate": 47.92, "conversion_rate": 2.78, "page_views": 171472, "revenue": 122302.17, "unique_visitors": 120284}, "Organic": {"bounce_rate": 48.68, "conversion_rate": 2.82, "page_views": 231272, "revenue": 159418.1, "unique_visitors": 161191}, "Paid": {"bounce_rate": 50.69, "conversion_rate": 2.97, "page_views": 61140, "revenue": 39146.74, "unique_visitors": 42939}, "Referral": {"bounce_rate": 48.09, "conversion_rate": 2.66, "page_views": 109451, "revenue": 75412.1, "unique_visitors": 76510}};
+        var sourceTrace = {
+            labels: Object.keys(sourceData),
+            values: Object.values(sourceData).map(d => d.page_views),
+            type: 'pie',
+            marker: {colors: ['#667eea', '#764ba2', '#f093fb', '#4facfe']}
+        };
+        Plotly.newPlot('source-chart', [sourceTrace], {
+            title: '',
+            margin: {t: 20}
+        });
+    </script>
+</body>
+</html>
