@@ -1,0 +1,533 @@
+{
+  "generated_at": "2025-12-11T21:04:43.021161",
+  "metrics": {
+    "total_page_views": 568533,
+    "total_unique_visitors": 397569,
+    "average_bounce_rate": 48.55,
+    "average_session_duration": 5.99,
+    "average_conversion_rate": 2.79,
+    "total_revenue": 396279.11,
+    "peak_traffic_hour": 18,
+    "best_day_of_week": "Dom",
+    "top_device": "Desktop",
+    "top_source": "Organic"
+  },
+  "daily_stats": {
+    "2025-11-11": {
+      "page_views": 14427,
+      "unique_visitors": 10052,
+      "bounce_rate": 48.14,
+      "avg_session_duration": 6.21,
+      "conversion_rate": 2.65,
+      "revenue": 10932.06
+    },
+    "2025-11-12": {
+      "page_views": 17053,
+      "unique_visitors": 11915,
+      "bounce_rate": 49.37,
+      "avg_session_duration": 5.66,
+      "conversion_rate": 2.73,
+      "revenue": 14719.14
+    },
+    "2025-11-13": {
+      "page_views": 19305,
+      "unique_visitors": 13495,
+      "bounce_rate": 47.33,
+      "avg_session_duration": 6.8,
+      "conversion_rate": 2.57,
+      "revenue": 10764.93
+    },
+    "2025-11-14": {
+      "page_views": 21879,
+      "unique_visitors": 14936,
+      "bounce_rate": 49.46,
+      "avg_session_duration": 6.57,
+      "conversion_rate": 2.45,
+      "revenue": 14348.51
+    },
+    "2025-11-15": {
+      "page_views": 24174,
+      "unique_visitors": 16735,
+      "bounce_rate": 43.29,
+      "avg_session_duration": 5.75,
+      "conversion_rate": 2.84,
+      "revenue": 13988.62
+    },
+    "2025-11-16": {
+      "page_views": 26900,
+      "unique_visitors": 18806,
+      "bounce_rate": 49.91,
+      "avg_session_duration": 6.86,
+      "conversion_rate": 2.92,
+      "revenue": 12546.01
+    },
+    "2025-11-17": {
+      "page_views": 12284,
+      "unique_visitors": 8279,
+      "bounce_rate": 47.69,
+      "avg_session_duration": 6.54,
+      "conversion_rate": 2.53,
+      "revenue": 12412.46
+    },
+    "2025-11-18": {
+      "page_views": 14308,
+      "unique_visitors": 10081,
+      "bounce_rate": 48.28,
+      "avg_session_duration": 6.87,
+      "conversion_rate": 3.07,
+      "revenue": 13270.97
+    },
+    "2025-11-19": {
+      "page_views": 16569,
+      "unique_visitors": 11669,
+      "bounce_rate": 49.43,
+      "avg_session_duration": 6.37,
+      "conversion_rate": 2.7,
+      "revenue": 15753.85
+    },
+    "2025-11-20": {
+      "page_views": 19246,
+      "unique_visitors": 13393,
+      "bounce_rate": 52.36,
+      "avg_session_duration": 6.03,
+      "conversion_rate": 2.35,
+      "revenue": 11921.75
+    },
+    "2025-11-21": {
+      "page_views": 21557,
+      "unique_visitors": 15321,
+      "bounce_rate": 47.5,
+      "avg_session_duration": 6.01,
+      "conversion_rate": 2.83,
+      "revenue": 15196.54
+    },
+    "2025-11-22": {
+      "page_views": 23873,
+      "unique_visitors": 16631,
+      "bounce_rate": 48.14,
+      "avg_session_duration": 5.59,
+      "conversion_rate": 2.93,
+      "revenue": 11308.26
+    },
+    "2025-11-23": {
+      "page_views": 26053,
+      "unique_visitors": 18480,
+      "bounce_rate": 50.91,
+      "avg_session_duration": 5.11,
+      "conversion_rate": 3.19,
+      "revenue": 15405.84
+    },
+    "2025-11-24": {
+      "page_views": 11766,
+      "unique_visitors": 8387,
+      "bounce_rate": 49.44,
+      "avg_session_duration": 5.55,
+      "conversion_rate": 2.64,
+      "revenue": 14277.69
+    },
+    "2025-11-25": {
+      "page_views": 14534,
+      "unique_visitors": 10053,
+      "bounce_rate": 49.58,
+      "avg_session_duration": 6.22,
+      "conversion_rate": 2.93,
+      "revenue": 11771.9
+    },
+    "2025-11-26": {
+      "page_views": 17211,
+      "unique_visitors": 11949,
+      "bounce_rate": 48.31,
+      "avg_session_duration": 5.98,
+      "conversion_rate": 2.69,
+      "revenue": 12209.1
+    },
+    "2025-11-27": {
+      "page_views": 19507,
+      "unique_visitors": 13526,
+      "bounce_rate": 54.4,
+      "avg_session_duration": 6.18,
+      "conversion_rate": 2.62,
+      "revenue": 11787.77
+    },
+    "2025-11-28": {
+      "page_views": 21433,
+      "unique_visitors": 14919,
+      "bounce_rate": 48.54,
+      "avg_session_duration": 5.84,
+      "conversion_rate": 2.77,
+      "revenue": 12520.34
+    },
+    "2025-11-29": {
+      "page_views": 23548,
+      "unique_visitors": 16857,
+      "bounce_rate": 45.55,
+      "avg_session_duration": 5.56,
+      "conversion_rate": 2.51,
+      "revenue": 14340.93
+    },
+    "2025-11-30": {
+      "page_views": 25922,
+      "unique_visitors": 18380,
+      "bounce_rate": 50.03,
+      "avg_session_duration": 5.09,
+      "conversion_rate": 3.11,
+      "revenue": 10803.63
+    },
+    "2025-12-01": {
+      "page_views": 11906,
+      "unique_visitors": 8445,
+      "bounce_rate": 45.9,
+      "avg_session_duration": 5.43,
+      "conversion_rate": 2.83,
+      "revenue": 13032.24
+    },
+    "2025-12-02": {
+      "page_views": 14273,
+      "unique_visitors": 9853,
+      "bounce_rate": 43.56,
+      "avg_session_duration": 5.3,
+      "conversion_rate": 2.91,
+      "revenue": 15653.2
+    },
+    "2025-12-03": {
+      "page_views": 17597,
+      "unique_visitors": 11882,
+      "bounce_rate": 48.01,
+      "avg_session_duration": 5.54,
+      "conversion_rate": 3.38,
+      "revenue": 14339.47
+    },
+    "2025-12-04": {
+      "page_views": 19038,
+      "unique_visitors": 13311,
+      "bounce_rate": 44.04,
+      "avg_session_duration": 5.77,
+      "conversion_rate": 2.59,
+      "revenue": 12927.85
+    },
+    "2025-12-05": {
+      "page_views": 21198,
+      "unique_visitors": 15076,
+      "bounce_rate": 49.58,
+      "avg_session_duration": 6.13,
+      "conversion_rate": 3.07,
+      "revenue": 13231.06
+    },
+    "2025-12-06": {
+      "page_views": 24417,
+      "unique_visitors": 16738,
+      "bounce_rate": 53.07,
+      "avg_session_duration": 5.83,
+      "conversion_rate": 2.57,
+      "revenue": 12332.74
+    },
+    "2025-12-07": {
+      "page_views": 26147,
+      "unique_visitors": 18334,
+      "bounce_rate": 48.85,
+      "avg_session_duration": 5.97,
+      "conversion_rate": 2.61,
+      "revenue": 14816.9
+    },
+    "2025-12-08": {
+      "page_views": 11545,
+      "unique_visitors": 8489,
+      "bounce_rate": 46.56,
+      "avg_session_duration": 5.59,
+      "conversion_rate": 3.26,
+      "revenue": 13153.87
+    },
+    "2025-12-09": {
+      "page_views": 13916,
+      "unique_visitors": 9907,
+      "bounce_rate": 49.62,
+      "avg_session_duration": 7.25,
+      "conversion_rate": 3.13,
+      "revenue": 12857.3
+    },
+    "2025-12-10": {
+      "page_views": 16947,
+      "unique_visitors": 11670,
+      "bounce_rate": 49.59,
+      "avg_session_duration": 6.21,
+      "conversion_rate": 2.44,
+      "revenue": 13654.18
+    }
+  },
+  "hourly_stats": {
+    "0": {
+      "page_views": 23766,
+      "unique_visitors": 16671,
+      "bounce_rate": 50.58,
+      "conversion_rate": 2.77,
+      "revenue": 16808.96
+    },
+    "1": {
+      "page_views": 17672,
+      "unique_visitors": 12132,
+      "bounce_rate": 48.27,
+      "conversion_rate": 2.94,
+      "revenue": 16694.22
+    },
+    "2": {
+      "page_views": 11721,
+      "unique_visitors": 8340,
+      "bounce_rate": 47.41,
+      "conversion_rate": 2.85,
+      "revenue": 17836.05
+    },
+    "3": {
+      "page_views": 6775,
+      "unique_visitors": 4765,
+      "bounce_rate": 49.75,
+      "conversion_rate": 3.0,
+      "revenue": 15590.87
+    },
+    "4": {
+      "page_views": 3414,
+      "unique_visitors": 2250,
+      "bounce_rate": 48.49,
+      "conversion_rate": 2.74,
+      "revenue": 17412.13
+    },
+    "5": {
+      "page_views": 1176,
+      "unique_visitors": 403,
+      "bounce_rate": 48.49,
+      "conversion_rate": 3.08,
+      "revenue": 18141.22
+    },
+    "6": {
+      "page_views": -467,
+      "unique_visitors": 45,
+      "bounce_rate": 45.01,
+      "conversion_rate": 2.64,
+      "revenue": 20020.6
+    },
+    "7": {
+      "page_views": 954,
+      "unique_visitors": 320,
+      "bounce_rate": 47.24,
+      "conversion_rate": 2.6,
+      "revenue": 14788.12
+    },
+    "8": {
+      "page_views": 2859,
+      "unique_visitors": 2196,
+      "bounce_rate": 46.37,
+      "conversion_rate": 3.08,
+      "revenue": 17191.78
+    },
+    "9": {
+      "page_views": 7378,
+      "unique_visitors": 4822,
+      "bounce_rate": 49.89,
+      "conversion_rate": 2.53,
+      "revenue": 16167.39
+    },
+    "10": {
+      "page_views": 12222,
+      "unique_visitors": 8363,
+      "bounce_rate": 50.29,
+      "conversion_rate": 2.59,
+      "revenue": 16533.61
+    },
+    "11": {
+      "page_views": 17367,
+      "unique_visitors": 12477,
+      "bounce_rate": 47.94,
+      "conversion_rate": 2.7,
+      "revenue": 15524.65
+    },
+    "12": {
+      "page_views": 23478,
+      "unique_visitors": 16624,
+      "bounce_rate": 50.09,
+      "conversion_rate": 2.64,
+      "revenue": 16768.38
+    },
+    "13": {
+      "page_views": 29539,
+      "unique_visitors": 20868,
+      "bounce_rate": 46.34,
+      "conversion_rate": 3.29,
+      "revenue": 17881.71
+    },
+    "14": {
+      "page_views": 35441,
+      "unique_visitors": 24725,
+      "bounce_rate": 45.17,
+      "conversion_rate": 3.25,
+      "revenue": 18542.24
+    },
+    "15": {
+      "page_views": 40216,
+      "unique_visitors": 28638,
+      "bounce_rate": 49.14,
+      "conversion_rate": 2.5,
+      "revenue": 18265.07
+    },
+    "16": {
+      "page_views": 44660,
+      "unique_visitors": 30819,
+      "bounce_rate": 54.52,
+      "conversion_rate": 2.52,
+      "revenue": 16776.81
+    },
+    "17": {
+      "page_views": 46656,
+      "unique_visitors": 32423,
+      "bounce_rate": 52.51,
+      "conversion_rate": 3.03,
+      "revenue": 15281.22
+    },
+    "18": {
+      "page_views": 46970,
+      "unique_visitors": 32938,
+      "bounce_rate": 48.85,
+      "conversion_rate": 3.05,
+      "revenue": 15245.35
+    },
+    "19": {
+      "page_views": 46730,
+      "unique_visitors": 32551,
+      "bounce_rate": 48.96,
+      "conversion_rate": 2.96,
+      "revenue": 16467.91
+    },
+    "20": {
+      "page_views": 44496,
+      "unique_visitors": 30799,
+      "bounce_rate": 42.02,
+      "conversion_rate": 2.59,
+      "revenue": 13402.01
+    },
+    "21": {
+      "page_views": 40201,
+      "unique_visitors": 28570,
+      "bounce_rate": 49.22,
+      "conversion_rate": 2.44,
+      "revenue": 14681.38
+    },
+    "22": {
+      "page_views": 35478,
+      "unique_visitors": 24790,
+      "bounce_rate": 46.24,
+      "conversion_rate": 2.63,
+      "revenue": 13500.68
+    },
+    "23": {
+      "page_views": 29831,
+      "unique_visitors": 21040,
+      "bounce_rate": 52.38,
+      "conversion_rate": 2.65,
+      "revenue": 16756.77
+    }
+  },
+  "device_stats": {
+    "Desktop": {
+      "page_views": 344347,
+      "unique_visitors": 241097,
+      "bounce_rate": 49.11,
+      "conversion_rate": 2.78,
+      "revenue": 236843.88
+    },
+    "Mobile": {
+      "page_views": 179167,
+      "unique_visitors": 125036,
+      "bounce_rate": 47.67,
+      "conversion_rate": 2.94,
+      "revenue": 120403.01
+    },
+    "Tablet": {
+      "page_views": 45019,
+      "unique_visitors": 31436,
+      "bounce_rate": 47.94,
+      "conversion_rate": 2.43,
+      "revenue": 39032.22
+    }
+  },
+  "source_stats": {
+    "Direct": {
+      "page_views": 172639,
+      "unique_visitors": 121092,
+      "bounce_rate": 47.92,
+      "conversion_rate": 2.78,
+      "revenue": 122302.17
+    },
+    "Organic": {
+      "page_views": 223283,
+      "unique_visitors": 155605,
+      "bounce_rate": 48.68,
+      "conversion_rate": 2.82,
+      "revenue": 159418.1
+    },
+    "Paid": {
+      "page_views": 63623,
+      "unique_visitors": 44682,
+      "bounce_rate": 50.69,
+      "conversion_rate": 2.97,
+      "revenue": 39146.74
+    },
+    "Referral": {
+      "page_views": 108988,
+      "unique_visitors": 76190,
+      "bounce_rate": 48.09,
+      "conversion_rate": 2.66,
+      "revenue": 75412.1
+    }
+  },
+  "top_hours": [
+    {
+      "hour": "18:00",
+      "page_views": 46970,
+      "percentage": 8.26
+    },
+    {
+      "hour": "19:00",
+      "page_views": 46730,
+      "percentage": 8.22
+    },
+    {
+      "hour": "17:00",
+      "page_views": 46656,
+      "percentage": 8.21
+    },
+    {
+      "hour": "16:00",
+      "page_views": 44660,
+      "percentage": 7.86
+    },
+    {
+      "hour": "20:00",
+      "page_views": 44496,
+      "percentage": 7.83
+    }
+  ],
+  "trends": {
+    "page_views": {
+      "metric": "page_views",
+      "recent_average": 19029.71,
+      "previous_average": 18927.17,
+      "change_percentage": 0.54,
+      "trend": "up",
+      "period_days": 7
+    },
+    "revenue": {
+      "metric": "revenue",
+      "recent_average": 13281.98,
+      "previous_average": 13187.18,
+      "change_percentage": 0.72,
+      "trend": "up",
+      "period_days": 7
+    },
+    "conversion_rate": {
+      "metric": "conversion_rate",
+      "recent_average": 67.45,
+      "previous_average": 66.94,
+      "change_percentage": 0.77,
+      "trend": "up",
+      "period_days": 7
+    }
+  }
+}
