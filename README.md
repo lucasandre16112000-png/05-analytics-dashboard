@@ -1,144 +1,144 @@
-# 📊 Analytics Dashboard Profissional
+# 📊 Professional Analytics Dashboard
 
-Um dashboard de analytics completo e profissional, construído com Python, Pandas, Plotly e Jinja2. Ele gera um relatório HTML interativo com diversas métricas e gráficos para análise de dados de tráfego de um site.
+A complete and professional analytics dashboard built with Python, Pandas, Plotly, and Jinja2. It generates an interactive HTML report with various metrics and charts for analyzing website traffic data.
 
-## ✨ Funcionalidades Principais
+## ✨ Key Features
 
-- **Dashboard Interativo**: Visualizações de dados ricas e interativas com Plotly.js
-- **Métricas Abrangentes**: Cálculo de mais de 10 métricas essenciais como Page Views, Visitantes Únicos, Taxa de Conversão, Receita, etc.
-- **Análise Temporal**: Gráficos de séries temporais para análise de tráfego por dia e por hora
-- **Análise de Segmentos**: Gráficos de pizza para análise de distribuição de tráfego por dispositivo e por fonte
-- **Análise de Tendências**: Cálculo de tendências de crescimento ou queda para as principais métricas
-- **Arquitetura Profissional**: Código modular e bem organizado, seguindo as melhores práticas de engenharia de software
-- **Templates HTML**: Uso de Jinja2 para separação do código Python da apresentação HTML
-- **Testes Abrangentes**: Testes unitários com Pytest para garantir a qualidade e a corretude dos cálculos
-- **Configuração Flexível**: Configurações centralizadas para fácil customização
-- **Exportação de Relatórios**: Geração de um relatório completo em JSON com todos os dados e métricas
+- **Interactive Dashboard**: Rich and interactive data visualizations with Plotly.js
+- **Comprehensive Metrics**: Calculation of 10+ essential metrics such as Page Views, Unique Visitors, Conversion Rate, Revenue, etc.
+- **Temporal Analysis**: Time series charts for traffic analysis by day and hour
+- **Segment Analysis**: Pie charts for analyzing traffic distribution by device and source
+- **Trend Analysis**: Calculation of growth or decline trends for key metrics
+- **Professional Architecture**: Modular and well-organized code, following software engineering best practices
+- **HTML Templates**: Use of Jinja2 for separation of Python code from HTML presentation
+- **Comprehensive Tests**: Unit tests with Pytest to ensure quality and calculation correctness
+- **Flexible Configuration**: Centralized configurations for easy customization
+- **Report Export**: Generation of a complete JSON report with all data and metrics
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-| Tecnologia | Versão | Propósito |
+| Technology | Version | Purpose |
 |:---|:---|:---|
-| **Python** | 3.8+ | Linguagem principal |
-| **Pandas** | 2.0+ | Manipulação e análise de dados |
-| **Plotly** | 5.0+ | Visualizações interativas |
-| **Jinja2** | 3.0+ | Templates HTML |
-| **Pytest** | 7.0+ | Testes unitários |
+| **Python** | 3.8+ | Main programming language |
+| **Pandas** | 2.0+ | Data manipulation and analysis |
+| **Plotly** | 5.0+ | Interactive visualizations |
+| **Jinja2** | 3.0+ | HTML templates |
+| **Pytest** | 7.0+ | Unit tests |
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
 ```
 /05-analytics-dashboard
 ├── dashboard/
-│   ├── config/                    # Módulo de configuração
+│   ├── config/                    # Configuration module
 │   │   ├── __init__.py
-│   │   ├── logger.py              # Configuração do logger
-│   │   └── settings.py            # Configurações gerais
-│   ├── data_engine/               # Módulo de análise de dados
+│   │   ├── logger.py              # Logger configuration
+│   │   └── settings.py            # General settings
+│   ├── data_engine/               # Data analysis module
 │   │   ├── __init__.py
-│   │   └── analytics.py           # Classe AnalyticsEngine
-│   ├── static/                    # Arquivos estáticos (CSS, JS)
+│   │   └── analytics.py           # AnalyticsEngine class
+│   ├── static/                    # Static files (CSS, JS)
 │   │   └── css/
 │   │       └── style.css
-│   ├── templates/                 # Templates HTML (Jinja2)
+│   ├── templates/                 # HTML templates (Jinja2)
 │   │   └── index.html
 │   ├── __init__.py
-│   ├── generator.py               # Classe DashboardGenerator
-│   └── main.py                    # Script principal
-├── data/                          # Dados de entrada
+│   ├── generator.py               # DashboardGenerator class
+│   └── main.py                    # Main script
+├── data/                          # Input data
 │   └── sample_data.json
-├── output/                        # Arquivos de saída
+├── output/                        # Output files
 │   ├── analytics_report.json
 │   └── dashboard.html
-├── tests/                         # Testes unitários
+├── tests/                         # Unit tests
 │   ├── __init__.py
 │   ├── test_analytics.py
 │   └── test_generator.py
-├── .env.example                   # Exemplo de arquivo de configuração
-├── .gitignore                     # Arquivos a ignorar no Git
-├── requirements.txt               # Dependências do projeto
-└── README.md                      # Este arquivo
+├── .env.example                   # Example configuration file
+├── .gitignore                     # Files to ignore in Git
+├── requirements.txt               # Project dependencies
+└── README.md                      # This file
 ```
 
-## 📋 Guia de Instalação e Execução (Para Qualquer Pessoa)
+## 📋 Installation and Execution Guide (For Everyone)
 
-Este guia foi feito para que qualquer pessoa, mesmo sem conhecimento técnico, possa executar este projeto.
+This guide was created so that anyone, even without technical knowledge, can run this project.
 
-### Pré-requisitos
+### Prerequisites
 
-1. **Git**: Ferramenta para baixar (clonar) o código do GitHub.
-   - [**Download do Git aqui**](https://git-scm.com/downloads)
+1. **Git**: Tool to download (clone) the code from GitHub.
+   - [**Download Git here**](https://git-scm.com/downloads)
 
-2. **Python**: A linguagem de programação usada no projeto (versão 3.8 ou superior).
-   - [**Download do Python aqui**](https://www.python.org/downloads/)
-   - **Importante**: Durante a instalação do Python no Windows, marque a caixa que diz **"Add Python to PATH"**.
+2. **Python**: The programming language used in the project (version 3.8 or higher).
+   - [**Download Python here**](https://www.python.org/downloads/)
+   - **Important**: During Python installation on Windows, check the box that says **"Add Python to PATH"**.
 
-### Passo 1: Clonar o Repositório
+### Step 1: Clone the Repository
 
-Abra o seu terminal (ou **Git Bash** no Windows) e use o comando abaixo para baixar o projeto:
+Open your terminal (or **Git Bash** on Windows) and use the command below to download the project:
 
 ```bash
 git clone https://github.com/lucasandre16112000-png/05-analytics-dashboard.git
 cd 05-analytics-dashboard
 ```
 
-### Passo 2: Criar e Ativar um Ambiente Virtual
+### Step 2: Create and Activate a Virtual Environment
 
-Um ambiente virtual isola as dependências do projeto, evitando conflitos com outras aplicações Python.
+A virtual environment isolates the project's dependencies, preventing conflicts with other Python applications.
 
-**No Windows (PowerShell):**
+**On Windows (PowerShell):**
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
 ```
 
-**No macOS ou Linux:**
+**On macOS or Linux:**
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-Você saberá que o ambiente virtual está ativado quando ver `(venv)` no início da linha do seu terminal.
+You'll know the virtual environment is activated when you see `(venv)` at the beginning of your terminal line.
 
-### Passo 3: Instalar as Dependências
+### Step 3: Install Dependencies
 
-Com o ambiente virtual ativado, instale as bibliotecas necessárias:
+With the virtual environment activated, install the necessary libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Passo 4: Executar o Dashboard
+### Step 4: Run the Dashboard
 
-Execute o script principal para gerar o dashboard:
-
-```bash
-python -m dashboard.main
-```
-
-O script irá:
-1. Gerar dados de exemplo (se não existirem)
-2. Calcular todas as métricas e análises
-3. Gerar o relatório em JSON em `output/analytics_report.json`
-4. Gerar o dashboard HTML em `output/dashboard.html`
-
-### Passo 5: Visualizar o Dashboard
-
-Abra o arquivo `output/dashboard.html` em seu navegador para visualizar o dashboard interativo com todos os gráficos e métricas.
-
-## 🚀 Exemplos de Uso
-
-### Exemplo 1: Usar o Script Padrão
-
-O script padrão já contém um exemplo pronto para usar:
+Execute the main script to generate the dashboard:
 
 ```bash
 python -m dashboard.main
 ```
 
-### Exemplo 2: Usar Dados Customizados
+The script will:
+1. Generate sample data (if it doesn't exist)
+2. Calculate all metrics and analyses
+3. Generate the JSON report in `output/analytics_report.json`
+4. Generate the HTML dashboard in `output/dashboard.html`
 
-Para usar seus próprios dados, coloque um arquivo JSON em `data/sample_data.json` com o seguinte formato:
+### Step 5: View the Dashboard
+
+Open the `output/dashboard.html` file in your browser to view the interactive dashboard with all charts and metrics.
+
+## 🚀 Usage Examples
+
+### Example 1: Use the Default Script
+
+The default script already contains a ready-to-use example:
+
+```bash
+python -m dashboard.main
+```
+
+### Example 2: Use Custom Data
+
+To use your own data, place a JSON file in `data/sample_data.json` with the following format:
 
 ```json
 [
@@ -156,88 +156,88 @@ Para usar seus próprios dados, coloque um arquivo JSON em `data/sample_data.jso
 ]
 ```
 
-Depois execute:
+Then execute:
 
 ```bash
 python -m dashboard.main
 ```
 
-### Exemplo 3: Usar o AnalyticsEngine em Seu Próprio Código
+### Example 3: Use AnalyticsEngine in Your Own Code
 
-Você pode importar o engine em seu próprio projeto Python:
+You can import the engine in your own Python project:
 
 ```python
 from dashboard.data_engine.analytics import AnalyticsEngine
 from pathlib import Path
 
-# Criar engine
+# Create engine
 engine = AnalyticsEngine()
 
-# Carregar dados
+# Load data
 engine.load_data_from_file('data/sample_data.json')
 
-# Calcular métricas
+# Calculate metrics
 engine.calculate_metrics()
 
-# Obter métricas
+# Get metrics
 metrics = engine.get_metrics()
 print(f"Page Views: {metrics['page_views']}")
-print(f"Conversão: {metrics['conversion_rate']:.2%}")
+print(f"Conversion: {metrics['conversion_rate']:.2%}")
 
-# Exportar relatório
+# Export report
 engine.export_report('output/report.json')
 ```
 
-## 🧪 Executar os Testes
+## 🧪 Run Tests
 
-Para garantir que tudo está funcionando corretamente, execute a suíte de testes:
+To ensure everything is working correctly, run the test suite:
 
 ```bash
 pytest
 ```
 
-Ou com mais detalhes:
+Or with more details:
 
 ```bash
 pytest -v
 ```
 
-## 📊 Métricas Calculadas
+## 📊 Calculated Metrics
 
-O dashboard calcula automaticamente as seguintes métricas:
+The dashboard automatically calculates the following metrics:
 
-| Métrica | Descrição |
+| Metric | Description |
 |---------|-----------|
-| **Page Views** | Total de visualizações de página |
-| **Unique Visitors** | Total de visitantes únicos |
-| **Conversion Rate** | Percentual de conversão |
-| **Average Order Value** | Valor médio por pedido |
-| **Revenue** | Receita total |
-| **Bounce Rate** | Taxa de rejeição |
-| **Session Duration** | Duração média da sessão |
-| **Traffic by Device** | Distribuição de tráfego por dispositivo |
-| **Traffic by Source** | Distribuição de tráfego por fonte |
-| **Daily Trends** | Tendências diárias |
-| **Hourly Trends** | Tendências por hora |
+| **Page Views** | Total page views |
+| **Unique Visitors** | Total unique visitors |
+| **Conversion Rate** | Conversion percentage |
+| **Average Order Value** | Average value per order |
+| **Revenue** | Total revenue |
+| **Bounce Rate** | Bounce rate |
+| **Session Duration** | Average session duration |
+| **Traffic by Device** | Traffic distribution by device |
+| **Traffic by Source** | Traffic distribution by source |
+| **Daily Trends** | Daily trends |
+| **Hourly Trends** | Hourly trends |
 
-## 🔒 Boas Práticas
+## 🔒 Best Practices
 
-- **Dados Sensíveis**: Não inclua dados sensíveis ou pessoais no repositório
-- **Configurações**: Use o arquivo `.env` para configurações sensíveis
-- **Testes**: Sempre execute os testes antes de fazer commit
-- **Documentação**: Mantenha a documentação atualizada
+- **Sensitive Data**: Do not include sensitive or personal data in the repository
+- **Configuration**: Use the `.env` file for sensitive configurations
+- **Tests**: Always run tests before committing
+- **Documentation**: Keep documentation up to date
 
-## 🤝 Contribuição
+## 🤝 Contributing
 
-Contribuições são bem-vindas! Sinta-se à vontade para:
-- Abrir uma issue para relatar bugs
-- Enviar um pull request com melhorias
-- Sugerir novas funcionalidades
+Contributions are welcome! Feel free to:
+- Open an issue to report bugs
+- Submit a pull request with improvements
+- Suggest new features
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+This project is under the MIT license. See the `LICENSE` file for more details.
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 Lucas André S - [GitHub](https://github.com/lucasandre16112000-png)
